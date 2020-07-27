@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!--Typed.js-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typed.js"></script>
+
+    <title>Text Scrubber</title>
+
+
+    <style>
+    body{
+    background-color: #d2d3d8;
+    }
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #6486a9;
+   color: white;
+   text-align: center;
+   display: block;
+   }
+   .bg-light{
+   background-color:#cdd8e4;
+   }
+   a{
+   color:#219bd6;
+   }
+   h1{
+
+       font-size: 2.5rem;
+    text-shadow: 2px -2px black;
+    color: #6786a5;
+
+.button, input, optgroup, select, textarea
+{
+margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px
+}
+
+</style>
+
+  </head>
+
+
+  <body>
+  <center><h1>--:TEXT SCRUBER:--</h1></center>
+  <div class="container my-4">
+      <form action="/scrubber" method="get">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <li class="nav-item">
+          <a class="nav-link" href="/"><h4><b>HOME</b> </h4><span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="/about"><h4><b>ABOUT US</b> </h4></a>
+      </li>
+    <li class="nav-item dropdown">
+        <h4><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>MORE</b>
+
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">PDF</a>
+          <a class="dropdown-item" href="#">TEXT</a>
+          <a class="dropdown-item" href="#">DOCUMENT</a>
+        </div>
+
+    </h4>  </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle"  id="navbardropdown1"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+<!--        <div class="dropdown-menu" aria-labelledby="navbarDropdown">-->
+    <select data-placeholder="Choose a Language...">
+        <option value=" CHOOSE LANGUAGE"> <b>CHOOSE LANGUAGE</b></option>
+  <option value="Afrikaans">Afrikaans</option>
+  <option value="Albanian">Albanian</option>
+  <option value="Arabic">Arabic</option>
+  <option value="Armenian">Armenian</option>
+  <option value="Basque">Basque</option>
+  <option value="Bengali">Bengali</option>
+  <option value="Bulgarian">Bulgarian</option>
+  <option value="Catalan">Catalan</option>
+  <option value="Cambodian">Cambodian</option>
+  <option value="Chinese (Mandarin)">Chinese (Mandarin)</option>
+  <option value="Croatian">Croatian</option>
+  <option value="Czech">Czech</option>
+  <option value="Danish">Danish</option>
+  <option value="Dutch">Dutch</option>
+  <option value="English">English</option>
+  <option value="Estonian">Estonian</option>
+  <option value="Fiji">Fiji</option>
+  <option value="Finnish">Finnish</option>
+  <option value="French">French</option>
+  <option value="Georgian">Georgian</option>
+  <option value="German">German</option>
+  <option value="Greek">Greek</option>
+  <option value="Gujarati">Gujarati</option>
+  <option value="Hebrew">Hebrew</option>
+  <option value="Hindi">Hindi</option>
+  <option value="Hungarian">Hungarian</option>
+  <option value="Icelandic">Icelandic</option>
+  <option value="Indonesian">Indonesian</option>
+  <option value="Irish">Irish</option>
+  <option value="Italian">Italian</option>
+  <option value="Japanese">Japanese</option>
+  <option value="Javanese">Javanese</option>
+  <option value="Korean">Korean</option>
+  <option value="Latin">Latin</option>
+  <option value="Latvian">Latvian</option>
+  <option value="Lithuanian">Lithuanian</option>
+  <option value="Macedonian">Macedonian</option>
+  <option value="Malay">Malay</option>
+  <option value="Malayalam">Malayalam</option>
+  <option value="Maltese">Maltese</option>
+  <option value="Maori">Maori</option>
+  <option value="Marathi">Marathi</option>
+  <option value="Mongolian">Mongolian</option>
+  <option value="Nepali">Nepali</option>
+  <option value="Norwegian">Norwegian</option>
+  <option value="Persian">Persian</option>
+  <option value="Polish">Polish</option>
+  <option value="Portuguese">Portuguese</option>
+  <option value="Punjabi">Punjabi</option>
+  <option value="Quechua">Quechua</option>
+  <option value="Romanian">Romanian</option>
+  <option value="Russian">Russian</option>
+  <option value="Samoan">Samoan</option>
+  <option value="Serbian">Serbian</option>
+  <option value="Slovak">Slovak</option>
+  <option value="Slovenian">Slovenian</option>
+  <option value="Spanish">Spanish</option>
+  <option value="Swahili">Swahili</option>
+  <option value="Swedish ">Swedish </option>
+  <option value="Tamil">Tamil</option>
+  <option value="Tatar">Tatar</option>
+  <option value="Telugu">Telugu</option>
+  <option value="Thai">Thai</option>
+  <option value="Tibetan">Tibetan</option>
+  <option value="Tonga">Tonga</option>
+  <option value="Turkish">Turkish</option>
+  <option value="Ukrainian">Ukrainian</option>
+  <option value="Urdu">Urdu</option>
+  <option value="Uzbek">Uzbek</option>
+  <option value="Vietnamese">Vietnamese</option>
+  <option value="Welsh">Welsh</option>
+  <option value="Xhosa">Xhosa</option>
+</select>
+</a>
+</li>
+     <li class="nav-item my-3 ">
+     <div class="form-group">
+    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+   </div>
+     </li>
+
+</nav>
+
+          <div class="alert alert-success" role="alert">
+              <strong>Hello!</strong>Keep Editing Your Text and Make Your Data Error Free...!<b>:)</b>
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+  <div class="form-group">
+    <h3><span id="typed"></span></h3>
+    <textarea class="form-control" name='text' id="exampleFormControlTextarea1" rows="6"></textarea>
+    <span id="messageofvalidate" class="text-danger"></span>
+
+
+	<p>
+	<span id="wordCount">0</span> Characters
+	<script type="text/javascript">
+		var exampleFormControlTextarea1 = document.getElementById("exampleFormControlTextarea1");
+		var wordCount = document.getElementById("wordCount");
+
+		exampleFormControlTextarea1.addEventListener("keyup",function(){
+		var characters = exampleFormControlTextarea1.value.split('');
+  		wordCount.innerText = characters.length;
+		});
+	</script>
+	</p>
+  </div>
+
+<div class="custom-control custom-switch">
+  <input type="checkbox" name="removepunc" class="custom-control-input" id="customSwitch1">
+    <label class="custom-control-label" for="customSwitch1"><b>REMOVE PUNCUATIONS</b></label>
+</div>
+  <div class="custom-control custom-switch">
+  <input type="checkbox" name="fullcaps" class="custom-control-input" id="customSwitch2">
+      <label class="custom-control-label" for="customSwitch2"><b>UPPERCASE</b></label>
+</div>
+  <div class="custom-control custom-switch">
+  <input type="checkbox"  name="newlineremover" class="custom-control-input" id="customSwitch3">
+  <label class="custom-control-label" for="customSwitch3"><b>NEW LINE REMOVER</b></label>
+</div>
+  <div class="custom-control custom-switch">
+  <input type="checkbox"  name="extraspaceremover" class="custom-control-input" id="customSwitch4">
+      <label class="custom-control-label" for="customSwitch4"><b>EXTRA SPACES REMOVER</b></label>
+</div>
+<div class="custom-control custom-switch">
+    <input type="checkbox"  name="numberremover" class="custom-control-input" id="customSwitch5">
+    <label class="custom-control-label" for="customSwitch5"><b>NUMBER REMOVER</b></label>
+  </div>
+<button type="submit" class="btn btn-dark mt-2">SRCUB TEXT</button>
+</div>
+  </div>
+ <div id="typed-strings">
+  </div>
+
+  <script>
+     var typed = new Typed('#typed',{
+                    strings:["You can do any edit with your text here!","Enter your text here and let Text Scrubber do the magic!"],
+                    backSpeed: 15,
+                    smartBackspace: true,
+                    backDelay: 1200,
+                    startDelay: 1000,
+                    typeSpeed: 25,
+                    loop: false,
+                  });
+    </script>
+
+<footer class="footer">
+  <div class="container">
+    <span class="text-light">&#169 2020 --:TEXT SCRUBER:--.in </span>
+  </div>
+</footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script>
+      function validate(){
+      var textarea = document.getElementById('exampleFormControlTextarea1').value;
+      var span = document.getElementById('messageofvalidate');
+        if (textarea == '') {
+          span.innerHTML = 'Write Your Query';
+          return false;
+        }
+      }
+    </script>
+  </body>
+</html>
