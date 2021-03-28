@@ -19,10 +19,11 @@ OUTPUT---
 
 UPPERCASE (edit text in uppercase)--
 
+
+![DELL - Screenshot (3814)](https://user-images.githubusercontent.com/47920126/112750489-7f8b0780-8fe6-11eb-8639-2f5c9a6e83d8.png)
+OUTPUT---
 ![DELL - Screenshot (3813)](https://user-images.githubusercontent.com/47920126/112750488-7dc14400-8fe6-11eb-870c-b2a76da053c1.png)
 
-OUTPUT---
-![DELL - Screenshot (3814)](https://user-images.githubusercontent.com/47920126/112750489-7f8b0780-8fe6-11eb-8639-2f5c9a6e83d8.png)
 EXTRA SPACE REMOVER(Remove extra spaces between the words)--
 
 
