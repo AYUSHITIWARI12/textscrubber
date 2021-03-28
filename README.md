@@ -10,6 +10,10 @@ HOME-- [TEXT SCRUBBER]
 
 
 REMOVE PUNCUATIONS--
+![DELL - Screenshot (3811)](https://user-images.githubusercontent.com/47920126/112750326-a85ecd00-8fe5-11eb-8872-c59c0a1aa474.png)
+
+OUTPUT
+![DELL - Screenshot (3812)](https://user-images.githubusercontent.com/47920126/112750327-a98ffa00-8fe5-11eb-9b54-9a1d02fd4c1f.png)
 
 
 UPPERCASE (edit text in uppercase)--
